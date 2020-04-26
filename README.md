@@ -56,7 +56,7 @@ Architecture by William Stallings. 32- Bit ARM and 16 -Bit Thumb instruction set
 - ARM Memory Management:- [Developer ARM :- Learn the Architecture](https://developer.arm.com/architectures/learn-the-architecture). Download the full tutorial pdf.
 - ARM Linux distributions:-[Linux ARM distros](https://www.linux.com/training-tutorials/4-fine-linux-arm-distros/), 
 (ARM Linux Distributions wiki)[https://en.wikipedia.org/wiki/Category:ARM_Linux_distributions]
-- Building an MMU(Verilog, 1000):- ARM9ish, explain TLBs and other fun things. Maybe also a memory controller, depending on how the FPGA is, then add the init code to your bootloader.
+- Building an MMU(Verilog, 1000):- ARM9, explain TLBs and other fun things. Maybe also a memory controller, depending on how the FPGA is, then add the init code to your bootloader.
 
 ### Building an ARM7 CPU, Coding a BootROM, Coding an Assembler.
 
@@ -92,7 +92,7 @@ Needed for System On Chip design for ASICs.
 
 #### Peripheral Devices
 - Buffers and latches, Crystal, Reset circuit, Chip select logic circuit, timers and counters.Universal  asynchronous  receiver,  transmitter  (UART),  Pulse  width  modulators.
-- Building a UART(Verilog, 100):- An intro chapter to Verilog, copy a real UART, introducing the concept of MMIO, though the serial port may be semihosting. Serial test echo program and led control. 
+- Building a UART(Verilog, 100):- An intro chapter to Verilog, copy a real UART, introducing the concept of MMIO. Serial test echo program and led control. Software Serial arduino.cc
 - [Implementing a UART in Verilog and Migen](https://lab.whitequark.org/notes/2016-10-18/implementing-an-uart-in-verilog-and-migen/)
 - [UART, Serial Port, RS-232 Interface](https://www.nandland.com/vhdl/modules/module-uart-serial-port-rs232.html)
 
