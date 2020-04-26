@@ -1,16 +1,13 @@
-## From Digital Logic to AI Accelerators
+## IC to AI Accelerators
 
+Deep learning frameworks are still evolving, making it hard to design custom hardware.  Reconfigurable devices such as field-programmable gate arrays (FPGA) make it easier to evolve hardware, frameworks and software alongside each other. In order to design robust hardware, a certain level of knowledge is necessary-- ranging from undergrad elements of CS to embedded systems and definitely Deep Learning . It is becoming harder to find people who understand the full stack from a first principles theory. 
+This is a  micro curriculum that I have designed which will help you understand the system stack starting from the Building Block of ICs to AI Accelerators from a first Principles Perspective.
 
-## Clean everything UP
-
-
-The aim is to understand Embedded systems from a first Principles theory. Most of what embedded systems curriculum  involves is teaching you a basic background of Tools and their usage. It becomes harder to hire people who understand the entire stack from first principles theory. 
-
-This is a  micro curriculum that I have designed which will help you understand the system stack starting from the Building Block of ICs to AI Accelerators.
+*Note:- This is in NO way complete. I will keep updating this repo*
 
 ### Transistors and Digital Logic
 
-- Building block of ICs. BJT, FETs, Power Transistors . Some basic Circuit Theory:- Divide it into sub-chapters. [IC design wiki](https://en.wikipedia.org/wiki/Integrated_circuit_design).
+- Building block of ICs. Learn about Transistors- Follow the Book by Sedra-Smith on Microelectronic Circuits. BJT, FETs, Power Transistors . Some basic Circuit Theory:- Divide it into sub-chapters. [IC design wiki](https://en.wikipedia.org/wiki/Integrated_circuit_design).
 
 - Sequential and Combinational Circuits. Synchronous, Asynchronous, Register Transfer level, Introduction to VLSI design, Verilog and VHDL.
 
@@ -84,9 +81,9 @@ Architecture by William Stallings. 32- Bit ARM and 16 -Bit Thumb instruction set
 
 ### Building an ARM7 CPU, Coding a BootROM, Coding an Assembler.
 
-- Coding an assembler:-  write in python. Happens in parallel with the CPU building. Teaches you ARM assembly. Initially outputs just binary files, but changed when you write a linker.
+- Coding an assembler:-  write in python. Happens in parallel with the CPU building. Initially outputs just binary files, but changed when you write a linker.
 - Building a ARM7 CPU(Verilog, 1500):- Break this into subchapters. A simple pipeline to start, decode, fetch, execute.
-- Coding a bootrom(Assembler, 40) - from geohotz
+- Coding a bootrom(Assembler, 40) - *from geohotz*
 
 
 Memory Management Unit - wiki.
@@ -113,6 +110,9 @@ language before the program is first run.
 
 ### System on Chip (SoC)
 
+Needed for System On Chip design for ASICs.
+
+- [SoC wiki](https://en.wikipedia.org/wiki/System_on_a_chip)
 - SoC Design Methodology , Overview of the SOC Design Process.
 - Canonical SoC Design, System Design Flow,  System Architecture, Components of the system, Hardware & Software, Processor Architectures, System Architecture and Complexity. Parameterized Systems-on-a-Chip ,  System-on-a-chip Peripheral Cores.
 -  Overview of SOC external memory, Internal Memory, Size, Cache memory, Cache Organization, Cache data. Types of Cache:- Split Level Caches, Multi Level Cache. SOC Memory System .
@@ -121,7 +121,9 @@ language before the program is first run.
 ### Peripheral Devices
 
 - Buffers and latches, Crystal, Reset circuit, Chip select logic circuit, timers and counters.Universal  asynchronous  receiver,  transmitter  (UART),  Pulse  width  modulators.
-- Building a UART(Verilog, 100):- An intro chapter to Verilog, copy a real UART, introducing the concept of MMIO, though the serial port may be semihosting. Serial test echo program and led control.
+- Building a UART(Verilog, 100):- An intro chapter to Verilog, copy a real UART, introducing the concept of MMIO, though the serial port may be semihosting. Serial test echo program and led control. 
+- [Implementing a UART in Verilog and Migen](https://lab.whitequark.org/notes/2016-10-18/implementing-an-uart-in-verilog-and-migen/)
+- [UART, Serial Port, RS-232 Interface](https://www.nandland.com/vhdl/modules/module-uart-serial-port-rs232.html)
 
 
 ### Understanding Memory
@@ -136,14 +138,15 @@ language before the program is first run.
 
 ### Jetson Nano Developer's Kit
 
+Basically a Raspberry Pi on Steroids.
 - Jetson Nano embedded Technical Specifications- https://developer.nvidia.com/embedded/develop/hardware
 - Jetson nano DL Benchmarks:- https://developer.nvidia.com/embedded/jetson-nano-dl-inference-benchmarks
 - Jetson nano Developer's Kit:- https://developer.nvidia.com/embedded/jetson-nano-developer-kit
 
 ### Google TPU
 
-- What is a Tensor Processing Unit ? RISC, CISC , TPU instruction set , the TPU. Matrix Multiplying Unit (MMU). Parallel Processing on Matrix Multiplying Unit. Why Matrix Multiplication ? . Matrix Machine. Systolic Array - 1) Cycle 1 and Cycle 2. Use cases of TPU. 
+- What is a Tensor Processing Unit ? RISC, CISC , TPU instruction set , the TPU. GPU vs TPU. Matrix Multiplying Unit (MMU). Parallel Processing on Matrix Multiplying Unit. Why Matrix Multiplication ? . Matrix Machine. Systolic Array - 1) Cycle 1 and Cycle 2. Use cases of TPU. 
 - [Edge TPU performance benchmarks](https://coral.ai/docs/edgetpu/benchmarks/)
 - [Tensorflow Models on the Edge TPU](https://coral.ai/docs/edgetpu/models-intro/#compatibility-overview)
 - Implement a Multilayer perceptron for image classification using the CIFAR Dataset (GPU vs TPU).
-
+- [A Survey of Accelerator Architectures for Deep Neural Networks](https://www.sciencedirect.com/science/article/pii/S2095809919306356
