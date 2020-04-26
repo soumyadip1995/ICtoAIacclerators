@@ -17,8 +17,8 @@ This is a  micro curriculum that I have designed which will help you understand 
 
 #### FPGAs
 1) Talk about how FPGAs are Built - An FPGA from 7400s. The most basic building block of an FPGA is the Cell, or Slice. Talk about Programmable LUTs.
- - [Build Your Own FPGA](http://blog.notdot.net/2012/10/Build-your-own-FPGA)
-[Internal Functionality of FPGA look Up tables](https://www.allaboutcircuits.com/technical-articles/purpose-and-internal-functionality-of-fpga-look-up-tables/)
+- [Build Your Own FPGA](http://blog.notdot.net/2012/10/Build-your-own-FPGA)
+- [Internal Functionality of FPGA look Up tables](https://www.allaboutcircuits.com/technical-articles/purpose-and-internal-functionality-of-fpga-look-up-tables/)
 Getting Started with FPGAs- https://www.allaboutcircuits.com/technical-articles/getting-started-with-fpgas-look-up-tables-and-flip-flops/
 2) [5 easy steps to Building an Embedded Processor System inside an FPGA](https://www.youtube.com/watch?v=xlKoDRCziIg)
 Designing an FPGA from Scratch 38 part Tutorial:- Writing a Software device driver and an application program to run on the system. Pick out a suitable development Board.- [Designing an FPGA from SCratch](https://www.eetimes.com/how-to-design-an-fpga-from-scratch/#)
@@ -26,10 +26,10 @@ Designing an FPGA from Scratch 38 part Tutorial:- Writing a Software device driv
 4) How to Get started with FPGA programming ?
 [What is FPGA programming ?](https://www.fpga4student.com/2017/08/what-is-fpga-programming.html)
 
-- Digital Logic Design- Combinational and sequencial Circuits.
-- Verilog/VHDL language
-- Simulation - Modelsim
-- Synthesis and Implementation
+ - Digital Logic Design- Combinational and sequencial Circuits.
+ - Verilog/VHDL language
+ - Simulation - Modelsim
+ - Synthesis and Implementation
 Xilinx ISE desisn Suite:- [Xilinx ISE](https://www.xilinx.com/products/design-tools/ise-design-suite.html)
 
 #### ARM Architecture 
