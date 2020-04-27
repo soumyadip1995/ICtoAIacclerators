@@ -66,6 +66,9 @@ Architecture by William Stallings. 32- Bit ARM and 16 -Bit Thumb instruction set
 Memory Management Unit - wiki.
 https://developer.arm.com/architectures/learn-the-architecture/memory-management/the-memory-management-unit-mmu
 
+- [Write your own OS](http://mikeos.sourceforge.net/write-your-own-os.html)
+https://medium.com/@g33konaut/writing-an-x86-hello-world-boot-loader-with-assembly-3e4c5bdd96cf
+
 #### Compiler Design
 - Read the Compiler Design Tutorial by Tutorials Point. (Tutorials Point Compiler Design)[https://www.tutorialspoint.com/compiler_design/compiler_design_overview.htm]
 - Write a Compiler in Haskell. [learn Haskell](http://learnyouahaskell.com/)- Covers the Basics of Compilers.
@@ -116,4 +119,4 @@ Basically a Raspberry Pi on Steroids.
 - [Edge TPU performance benchmarks](https://coral.ai/docs/edgetpu/benchmarks/)
 - [Tensorflow Models on the Edge TPU](https://coral.ai/docs/edgetpu/models-intro/#compatibility-overview)
 - Implement a Multilayer perceptron for image classification using the CIFAR Dataset (GPU vs TPU).
-- [A Survey of Accelerator Architectures for Deep Neural Networks](https://www.sciencedirect.com/science/article/pii/S2095809919306356
+- [A Survey of Accelerator Architectures for Deep Neural Networks](https://www.sciencedirect.com/science/article/pii/S2095809919306356)
