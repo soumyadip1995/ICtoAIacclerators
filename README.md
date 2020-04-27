@@ -67,7 +67,7 @@ Memory Management Unit - wiki.
 https://developer.arm.com/architectures/learn-the-architecture/memory-management/the-memory-management-unit-mmu
 
 - [Write your own OS](http://mikeos.sourceforge.net/write-your-own-os.html)
-https://medium.com/@g33konaut/writing-an-x86-hello-world-boot-loader-with-assembly-3e4c5bdd96cf
+- https://medium.com/@g33konaut/writing-an-x86-hello-world-boot-loader-with-assembly-3e4c5bdd96cf
 
 #### Compiler Design
 - Read the Compiler Design Tutorial by Tutorials Point. (Tutorials Point Compiler Design)[https://www.tutorialspoint.com/compiler_design/compiler_design_overview.htm]
