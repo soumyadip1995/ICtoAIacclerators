@@ -12,7 +12,7 @@ This is a  micro curriculum that I have designed which will help you understand 
 #### Microprocessors and Microcontrollers
 - 8051 
 - 8085, 8086 - Basics, Instruction cycle
-- AVR Family :- Arduino, some basic realted projects.
+- AVR Family :- Arduino, some basic projects like LCD controller, Servo Motors, Sensors etc.
 - PIC Family:- Some background knowledge.
 
 #### FPGAs
