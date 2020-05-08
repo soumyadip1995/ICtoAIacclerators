@@ -68,6 +68,7 @@ https://developer.arm.com/architectures/learn-the-architecture/memory-management
 
 - [Write your own OS](http://mikeos.sourceforge.net/write-your-own-os.html)
 - https://medium.com/@g33konaut/writing-an-x86-hello-world-boot-loader-with-assembly-3e4c5bdd96cf
+- Bootloader in C:- https://www.codeproject.com/Articles/664165/Writing-a-boot-loader-in-Assembly-and-C-Part
 
 #### Compiler Design
 - Read the Compiler Design Tutorial by Tutorials Point. (Tutorials Point Compiler Design)[https://www.tutorialspoint.com/compiler_design/compiler_design_overview.htm]
