@@ -36,6 +36,11 @@ Xilinx ISE desisn Suite:- [Xilinx ISE](https://www.xilinx.com/products/design-to
 - Read about RISC Architectures - [RISC Wiki](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer)
 - Learn about ARM organisation. ARM core dataflow model. 3 stage and 5 stage pipeline. ARM 7 and ARM 9. Explaining Pipelining in ARM Processors.
 
+
+#### RISC-V Architecture
+
+Include material for the risc V architecture as well.
+
 #### ARM CPU
 - ARM Assembly basics Tutorial Series:- [Writing ARM Assembly](https://azeria-labs.com/writing-arm-assembly-part-1/)
 Learn about the Assembly language, data types and addressing modes. A good reading source would be from Computer Organization and
