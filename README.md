@@ -1,7 +1,7 @@
 ### from ICs to AI Accelerators
 
 Deep learning frameworks are still evolving, making it hard to design custom hardware.  Reconfigurable devices such as field-programmable gate arrays (FPGA) make it easier to evolve hardware, frameworks and software alongside each other. In order to design robust hardware, a certain level of knowledge is necessary-- ranging from undergrad elements of CS to embedded systems and definitely Deep Learning . It is becoming harder to find people who understand the full stack from a first principles theory. 
-This is a  micro curriculum that I have designed which will help you understand the system stack starting from the Building Block of ICs to AI Accelerators from a first Principles Perspective.
+This is a  micro curriculum which will help you understand the system stack starting from the Building Block of ICs to AI Accelerators from a first Principles Perspective.
 
 *Note:- This is in NO way complete. I will keep updating this repo*
 
