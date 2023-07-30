@@ -126,3 +126,11 @@ Basically a Raspberry Pi on Steroids.
 - [Tensorflow Models on the Edge TPU](https://coral.ai/docs/edgetpu/models-intro/#compatibility-overview)
 - Implement a Multilayer perceptron for image classification using the CIFAR Dataset (GPU vs TPU).
 - [A Survey of Accelerator Architectures for Deep Neural Networks](https://www.sciencedirect.com/science/article/pii/S2095809919306356)
+
+
+#### CUDA programming.
+
+CUDA provides two APIs (Application Programming Interfaces) for developers: the CUDA driver API and the CUDA runtime API. The CUDA driver API is more fundamental (low-level) and more flexible. The CUDA runtime API is constructed based on the CUDA driver API and is easier to use. We only consider the CUDA runtime API
+CUDA C++ extends C++ by allowing the programmer to define C++ functions, called kernels, that, when called, are executed N times in parallel by N different CUDA threads, as opposed to only once like regular C++ functions.
+
+A kernel is defined using the ```__global__``` declaration specifier and the number of CUDA threads that execute that kernel for a given kernel call is specified using a new <<<...>>>. A few examples has been provided in cuda programming.
